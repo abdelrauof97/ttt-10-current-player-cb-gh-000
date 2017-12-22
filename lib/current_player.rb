@@ -2,7 +2,7 @@
 board = ["O", " ", " ", " ", "X", " ", "X", " ", " "]
 def turn_count(turn)
   move_count = []
-    turn.each do |unit| 
+    turn.each do |unit|
     if unit == "X" || unit == "O"
       move_count.push(1)
 
