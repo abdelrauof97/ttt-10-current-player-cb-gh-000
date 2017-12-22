@@ -18,4 +18,4 @@ def current_player(board)
     #puts "divisible by 2"
     end
 end
-puts current_player(board)
+puts turn_count(board)
