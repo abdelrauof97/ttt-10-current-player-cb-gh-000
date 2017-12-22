@@ -1,21 +1,19 @@
 
 board = ["O", " ", " ", " ", "X", " ", "X", " ", " "]
 def turn_count(turn)
-  counter = 1
     counter = 0
     if unit == "X" || unit == "O"
       counter += 1
     end
-  end
-  turn_count.length.to_i
+
 end
 
 def current_player(board)
-    num = turn_count(board)
+    num = turn_count(board).length.to_i
     if num % 2 == 0
       return "O"
     else
       return "X"
     #puts "divisible by 2"
     end
-end 
+end
